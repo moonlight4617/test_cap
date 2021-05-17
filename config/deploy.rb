@@ -6,7 +6,7 @@ set :repo_url, "git@github.com:yukeippi/sample611.git" # 自分のリポジト�
 
 # rbenvの設定
 set :rbenv_type, :user
-set :rbenv_ruby, '2.7.2'
+set :rbenv_ruby, '2.7.3'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

@@ -7,7 +7,7 @@
 - デプロイはCapistranoで行う。
 
 # 本番実行環境
-- Ruby 2.7.2
+- Ruby 2.7.3
 - Rails 6.1.1
 - Nginx + Unicorn
 - Node.js 14

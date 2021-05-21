@@ -1,5 +1,5 @@
 {
-  "name": "sample611",
+  "name": "test_cap",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",

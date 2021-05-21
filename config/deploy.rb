@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
-lock "~> 3.15.0"
+lock "~> 3.16.0"
 
-set :application, "sample611"
-set :repo_url, "git@github.com:yukeippi/sample611.git" # 自分のリポジトリを設定
+set :application, "test_cap"
+set :repo_url, "github:moonlight4617/test_cap.git" 
 
 # rbenvの設定
 set :rbenv_type, :user
@@ -12,7 +12,7 @@ set :rbenv_ruby, '2.7.3'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, "/var/rails/sample611" # Railsアプリの設置先
+set :deploy_to, "/var/rails/cap" # Railsアプリの設置先
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh

@@ -4,10 +4,10 @@ set :rails_env, 'production'
 #  事前に「ssh-add ~/.ssh/id_rsa」が必要
 set :ssh_options, {
   auth_methods: [ 'publickey' ],
-  keys:         [ '~/.ssh/aws-keypair-20200121.pem' ],
+  keys:         [ '~/.ssh/test_cap.pem' ],
 }
 
-server '54.65.219.178', user: 'ec2-user', roles: %w{app db web}
+server '35.72.154.80', user: 'ec2-user', roles: %w{app db web}
 
 # server-based syntax
 # ======================
